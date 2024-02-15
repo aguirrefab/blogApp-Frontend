@@ -1,24 +1,3 @@
-:host {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-:host {
-  --primary-color: #007bff; // Define your primary color
-  --background-color: #ffffff; // Light mode background color
-  --text-color: #000000; // Light mode text color
-}
-
-/* Dark mode */
-:host.dark-mode {
-  --background-color: #212121; // Dark mode background color
-  --text-color: #ffffff; // Dark mode text color
-}
-
 a,
 a:visited,
 a:hover {
